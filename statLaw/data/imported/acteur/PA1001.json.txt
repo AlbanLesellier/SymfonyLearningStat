@@ -1,0 +1,2261 @@
+stdClass Object
+(
+    [acteur] => stdClass Object
+        (
+            [@xmlns] => http://schemas.assemblee-nationale.fr/referentiel
+            [uid] => stdClass Object
+                (
+                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                    [@xsi:type] => IdActeur_type
+                    [#text] => PA1001
+                )
+
+            [etatCivil] => stdClass Object
+                (
+                    [ident] => stdClass Object
+                        (
+                            [civ] => M.
+                            [prenom] => Marc-Philippe
+                            [nom] => Daubresse
+                            [alpha] => Daubresse
+                            [trigramme] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:nil] => true
+                                )
+
+                        )
+
+                    [infoNaissance] => stdClass Object
+                        (
+                            [dateNais] => 1953-08-01
+                            [villeNais] => Lille
+                            [depNais] => Nord
+                            [paysNais] => France
+                        )
+
+                    [dateDeces] => stdClass Object
+                        (
+                            [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                            [@xsi:nil] => true
+                        )
+
+                )
+
+            [profession] => stdClass Object
+                (
+                    [libelleCourant] => Ancien directeur d'une société de recrutement
+                    [socProcINSEE] => stdClass Object
+                        (
+                            [catSocPro] => Anciens artisans, commerçants, chefs d'entreprise
+                            [famSocPro] => Retraités
+                        )
+
+                )
+
+            [uri_hatvp] => stdClass Object
+                (
+                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                    [@xsi:nil] => true
+                )
+
+            [adresses] => stdClass Object
+                (
+                    [adresse] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => AdressePostale_Type
+                                    [uid] => AD386857
+                                    [type] => 0
+                                    [typeLibelle] => Adresse officielle
+                                    [poids] => 1
+                                    [adresseDeRattachement] => 
+                                    [intitule] => Assemblée nationale,
+                                    [numeroRue] => 126
+                                    [nomRue] => Rue de l'Université,
+                                    [complementAdresse] => 
+                                    [codePostal] => 75355
+                                    [ville] => Paris 07 SP
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => AdresseTelephonique_Type
+                                    [uid] => AD395657
+                                    [type] => 11
+                                    [typeLibelle] => Téléphone
+                                    [poids] => 1
+                                    [adresseDeRattachement] => AD386857
+                                    [valElec] => 01 40 63 75 53
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => AdresseTelephonique_Type
+                                    [uid] => AD395658
+                                    [type] => 12
+                                    [typeLibelle] => Télécopie
+                                    [poids] => 1
+                                    [adresseDeRattachement] => AD386857
+                                    [valElec] => 01 40 63 79 37
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => AdresseMail_Type
+                                    [uid] => AD716041
+                                    [type] => 15
+                                    [typeLibelle] => Mèl
+                                    [poids] => 
+                                    [adresseDeRattachement] => 
+                                    [valElec] => bastruc@ville-lambersart.fr
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => AdresseMail_Type
+                                    [uid] => AD716070
+                                    [type] => 15
+                                    [typeLibelle] => Mèl
+                                    [poids] => 
+                                    [adresseDeRattachement] => 
+                                    [valElec] => mdp.contact@yahoo.fr
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => AdresseMail_Type
+                                    [uid] => AD716102
+                                    [type] => 15
+                                    [typeLibelle] => Mèl
+                                    [poids] => 
+                                    [adresseDeRattachement] => 
+                                    [valElec] => mpdaubresse@assemblee-nationale.fr
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => AdresseSiteWeb_Type
+                                    [uid] => AD736452
+                                    [type] => 23
+                                    [typeLibelle] => Url sénateur
+                                    [poids] => 
+                                    [adresseDeRattachement] => 
+                                    [valElec] => https://www.senat.fr/senateur/daubresse_marc_philippe04008a.html
+                                )
+
+                        )
+
+                )
+
+            [mandats] => stdClass Object
+                (
+                    [mandat] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM391145
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => DELEGBUREAU
+                                    [dateDebut] => 2007-06-28
+                                    [datePublication] => 
+                                    [dateFin] => 2008-10-08
+                                    [preseance] => 24
+                                    [nominPrincipale] => 0
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO391141
+                                        )
+
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM778068
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => DELEGSENAT
+                                    [dateDebut] => 2020-10-20
+                                    [datePublication] => 
+                                    [dateFin] => 
+                                    [preseance] => 4
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO420388
+                                        )
+
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM15423365
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => GOUVERNEMENT
+                                    [dateDebut] => 2010-03-22
+                                    [datePublication] => 2010-03-23
+                                    [dateFin] => 2010-11-13
+                                    [preseance] => 50
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => membre
+                                            [libQualite] => membre
+                                            [libQualiteSex] => membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO384206
+                                        )
+
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM423365
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => MINISTERE
+                                    [dateDebut] => 2010-03-22
+                                    [datePublication] => 2010-03-23
+                                    [dateFin] => 2010-11-13
+                                    [preseance] => 30
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Ministre
+                                            [libQualite] => Ministre
+                                            [libQualiteSex] => Ministre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO423359
+                                        )
+
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM685460
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => PARPOL
+                                    [dateDebut] => 2012-12-01
+                                    [datePublication] => 
+                                    [dateFin] => 2015-11-30
+                                    [preseance] => 5
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO684942
+                                        )
+
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM710445
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => PARPOL
+                                    [dateDebut] => 2015-12-01
+                                    [datePublication] => 
+                                    [dateFin] => 2017-06-20
+                                    [preseance] => 5
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO710396
+                                        )
+
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM680195
+                                    [acteurRef] => PA1001
+                                    [legislature] => 14
+                                    [typeOrgane] => API
+                                    [dateDebut] => 2012-10-12
+                                    [datePublication] => 
+                                    [dateFin] => 2015-02-03
+                                    [preseance] => 40
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO201115
+                                        )
+
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM741623
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => GROUPESENAT
+                                    [dateDebut] => 2017-10-03
+                                    [datePublication] => 
+                                    [dateFin] => 2023-10-01
+                                    [preseance] => 4
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO286005
+                                        )
+
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM707343
+                                    [acteurRef] => PA1001
+                                    [legislature] => 14
+                                    [typeOrgane] => API
+                                    [dateDebut] => 2015-04-10
+                                    [datePublication] => 
+                                    [dateFin] => 2017-06-20
+                                    [preseance] => 40
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO201115
+                                        )
+
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM822328
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => API
+                                    [dateDebut] => 2023-03-28
+                                    [datePublication] => 
+                                    [dateFin] => 2023-10-26
+                                    [preseance] => 40
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO206064
+                                        )
+
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM829368
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => GROUPESENAT
+                                    [dateDebut] => 2023-10-03
+                                    [datePublication] => 
+                                    [dateFin] => 
+                                    [preseance] => 4
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO286005
+                                        )
+
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM741079
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => COMSENAT
+                                    [dateDebut] => 2017-10-04
+                                    [datePublication] => 
+                                    [dateFin] => 2020-10-06
+                                    [preseance] => 10
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO211495
+                                        )
+
+                                )
+
+                            [12] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM829364
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => COMSENAT
+                                    [dateDebut] => 2023-10-04
+                                    [datePublication] => 
+                                    [dateFin] => 2023-10-04
+                                    [preseance] => 10
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO211495
+                                        )
+
+                                )
+
+                            [13] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM829366
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => COMSENAT
+                                    [dateDebut] => 2023-10-05
+                                    [datePublication] => 
+                                    [dateFin] => 
+                                    [preseance] => 
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => 
+                                            [libQualite] => Vice-Président
+                                            [libQualiteSex] => Vice-Président
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO211495
+                                        )
+
+                                )
+
+                            [14] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM391154
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => DELEGBUREAU
+                                    [dateDebut] => 2007-06-28
+                                    [datePublication] => 
+                                    [dateFin] => 2008-10-08
+                                    [preseance] => 1
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Président
+                                            [libQualite] => Président
+                                            [libQualiteSex] => Président
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO391141
+                                        )
+
+                                )
+
+                            [15] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM656363
+                                    [acteurRef] => PA1001
+                                    [legislature] => 14
+                                    [typeOrgane] => GP
+                                    [dateDebut] => 2012-06-26
+                                    [datePublication] => 2012-06-27
+                                    [dateFin] => 2015-06-01
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre du
+                                            [libQualiteSex] => Membre du
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO656006
+                                        )
+
+                                )
+
+                            [16] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM314035
+                                    [acteurRef] => PA1001
+                                    [legislature] => 12
+                                    [typeOrgane] => GP
+                                    [dateDebut] => 2005-09-28
+                                    [datePublication] => 2005-09-28
+                                    [dateFin] => 2007-06-19
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre du
+                                            [libQualiteSex] => Membre du
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO270903
+                                        )
+
+                                )
+
+                            [17] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM708200
+                                    [acteurRef] => PA1001
+                                    [legislature] => 14
+                                    [typeOrgane] => GP
+                                    [dateDebut] => 2015-06-02
+                                    [datePublication] => 2015-06-02
+                                    [dateFin] => 2017-06-20
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre du
+                                            [libQualiteSex] => Membre du
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO707869
+                                        )
+
+                                )
+
+                            [18] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM426199
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => GP
+                                    [dateDebut] => 2010-12-14
+                                    [datePublication] => 2010-12-15
+                                    [dateFin] => 2012-06-19
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre du
+                                            [libQualiteSex] => Membre du
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO389395
+                                        )
+
+                                )
+
+                            [19] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM389771
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => GP
+                                    [dateDebut] => 2007-06-27
+                                    [datePublication] => 2007-06-27
+                                    [dateFin] => 2010-04-23
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre du
+                                            [libQualiteSex] => Membre du
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO389395
+                                        )
+
+                                )
+
+                            [20] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatMission_Type
+                                    [uid] => PM418669
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => MINISTERE
+                                    [dateDebut] => 2009-02-23
+                                    [datePublication] => 2009-02-24
+                                    [dateFin] => 2009-06-30
+                                    [preseance] => 1
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => en mission
+                                            [libQualite] => en mission
+                                            [libQualiteSex] => en mission
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO417003
+                                        )
+
+                                    [libelle] => Mise en place du plan de relance
+                                    [missionSuivanteRef] => 
+                                    [missionPrecedenteRef] => 
+                                )
+
+                            [21] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM778066
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => COMSENAT
+                                    [dateDebut] => 2020-10-07
+                                    [datePublication] => 
+                                    [dateFin] => 2023-10-01
+                                    [preseance] => 
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => 
+                                            [libQualite] => Vice-Président
+                                            [libQualiteSex] => Vice-Président
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO211495
+                                        )
+
+                                )
+
+                            [22] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatParlementaire_type
+                                    [uid] => PM736371
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => SENAT
+                                    [dateDebut] => 2017-10-02
+                                    [datePublication] => 
+                                    [dateFin] => 2023-10-01
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Sénateur
+                                            [libQualite] => SENATEUR
+                                            [libQualiteSex] => SENATEUR
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO78718
+                                        )
+
+                                    [suppleants] => 
+                                    [chambre] => 
+                                    [election] => stdClass Object
+                                        (
+                                            [lieu] => stdClass Object
+                                                (
+                                                    [region] => 
+                                                    [regionType] => 
+                                                    [departement] => 
+                                                    [numDepartement] => 59
+                                                    [numCirco] => 
+                                                )
+
+                                            [causeMandat] => 
+                                        )
+
+                                    [mandature] => stdClass Object
+                                        (
+                                            [datePriseFonction] => 
+                                            [causeFin] => 
+                                            [premiereElection] => 0
+                                            [placeHemicycle] => 
+                                            [mandatRemplaceRef] => 
+                                        )
+
+                                    [collaborateurs] => 
+                                )
+
+                            [23] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatParlementaire_type
+                                    [uid] => PM829905
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => SENAT
+                                    [dateDebut] => 2023-10-02
+                                    [datePublication] => 
+                                    [dateFin] => 
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Sénateur
+                                            [libQualite] => SENATEUR
+                                            [libQualiteSex] => SENATEUR
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO78718
+                                        )
+
+                                    [suppleants] => 
+                                    [chambre] => 
+                                    [election] => stdClass Object
+                                        (
+                                            [lieu] => stdClass Object
+                                                (
+                                                    [region] => 
+                                                    [regionType] => 
+                                                    [departement] => 
+                                                    [numDepartement] => 59
+                                                    [numCirco] => 
+                                                )
+
+                                            [causeMandat] => 
+                                        )
+
+                                    [mandature] => stdClass Object
+                                        (
+                                            [datePriseFonction] => 
+                                            [causeFin] => 
+                                            [premiereElection] => 0
+                                            [placeHemicycle] => 
+                                            [mandatRemplaceRef] => 
+                                        )
+
+                                    [collaborateurs] => 
+                                )
+
+                            [24] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM390466
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => COMPER
+                                    [dateDebut] => 2007-06-27
+                                    [datePublication] => 2007-06-28
+                                    [dateFin] => 2008-01-15
+                                    [preseance] => 32
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO59045
+                                        )
+
+                                )
+
+                            [25] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM657098
+                                    [acteurRef] => PA1001
+                                    [legislature] => 14
+                                    [typeOrgane] => COMPER
+                                    [dateDebut] => 2012-06-28
+                                    [datePublication] => 2012-06-28
+                                    [dateFin] => 2017-06-20
+                                    [preseance] => 32
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO59051
+                                        )
+
+                                )
+
+                            [26] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM406867
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => COMPER
+                                    [dateDebut] => 2008-01-16
+                                    [datePublication] => 2008-01-17
+                                    [dateFin] => 2008-01-30
+                                    [preseance] => 32
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO59051
+                                        )
+
+                                )
+
+                            [27] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM408020
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => COMPER
+                                    [dateDebut] => 2008-01-31
+                                    [datePublication] => 2008-01-31
+                                    [dateFin] => 2009-06-30
+                                    [preseance] => 32
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO59045
+                                        )
+
+                                )
+
+                            [28] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM323983
+                                    [acteurRef] => PA1001
+                                    [legislature] => 12
+                                    [typeOrgane] => COMPER
+                                    [dateDebut] => 2006-06-14
+                                    [datePublication] => 2006-06-14
+                                    [dateFin] => 2007-06-19
+                                    [preseance] => 32
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO59051
+                                        )
+
+                                )
+
+                            [29] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM426210
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => COMPER
+                                    [dateDebut] => 2010-12-15
+                                    [datePublication] => 2010-12-15
+                                    [dateFin] => 2012-06-19
+                                    [preseance] => 32
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO419865
+                                        )
+
+                                )
+
+                            [30] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM420529
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => COMPER
+                                    [dateDebut] => 2009-07-01
+                                    [datePublication] => 2009-07-01
+                                    [dateFin] => 2010-04-23
+                                    [preseance] => 32
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO419865
+                                        )
+
+                                )
+
+                            [31] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM787380
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => CMP
+                                    [dateDebut] => 2021-11-12
+                                    [datePublication] => 2021-11-13
+                                    [dateFin] => 2021-12-16
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Titulaire
+                                            [libQualite] => Membre titulaire
+                                            [libQualiteSex] => Membre titulaire
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO786552
+                                        )
+
+                                )
+
+                            [32] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM416398
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => CMP
+                                    [dateDebut] => 2008-10-28
+                                    [datePublication] => 2008-10-30
+                                    [dateFin] => 2008-12-08
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Titulaire
+                                            [libQualite] => Membre titulaire
+                                            [libQualiteSex] => Membre titulaire
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO416376
+                                        )
+
+                                )
+
+                            [33] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM806362
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => CMP
+                                    [dateDebut] => 2022-12-01
+                                    [datePublication] => 2022-12-02
+                                    [dateFin] => 2022-12-14
+                                    [preseance] => 16
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Rapporteur
+                                            [libQualite] => Rapporteur
+                                            [libQualiteSex] => Rapporteur
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO806155
+                                        )
+
+                                )
+
+                            [34] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM784516
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => CMP
+                                    [dateDebut] => 2021-07-09
+                                    [datePublication] => 2021-07-10
+                                    [dateFin] => 2021-07-22
+                                    [preseance] => 16
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Rapporteur
+                                            [libQualite] => Rapporteur
+                                            [libQualiteSex] => Rapporteur
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO784060
+                                        )
+
+                                )
+
+                            [35] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM758911
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => CMP
+                                    [dateDebut] => 2018-09-13
+                                    [datePublication] => 2018-09-14
+                                    [dateFin] => 2018-10-16
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Titulaire
+                                            [libQualite] => Membre titulaire
+                                            [libQualiteSex] => Membre titulaire
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO758352
+                                        )
+
+                                )
+
+                            [36] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM776128
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => CMP
+                                    [dateDebut] => 2020-10-15
+                                    [datePublication] => 2020-10-16
+                                    [dateFin] => 2020-12-17
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Titulaire
+                                            [libQualite] => Membre titulaire
+                                            [libQualiteSex] => Membre titulaire
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO776050
+                                        )
+
+                                )
+
+                            [37] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM782213
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => CMP
+                                    [dateDebut] => 2021-03-24
+                                    [datePublication] => 2021-03-26
+                                    [dateFin] => 2021-04-15
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Titulaire
+                                            [libQualite] => Membre titulaire
+                                            [libQualiteSex] => Membre titulaire
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO782096
+                                        )
+
+                                )
+
+                            [38] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM784218
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => CMP
+                                    [dateDebut] => 2021-07-01
+                                    [datePublication] => 2021-07-03
+                                    [dateFin] => 2021-07-22
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Titulaire
+                                            [libQualite] => Membre titulaire
+                                            [libQualiteSex] => Membre titulaire
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO784060
+                                        )
+
+                                )
+
+                            [39] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM806214
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => CMP
+                                    [dateDebut] => 2022-11-23
+                                    [datePublication] => 2022-11-25
+                                    [dateFin] => 2022-12-14
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Titulaire
+                                            [libQualite] => Membre titulaire
+                                            [libQualiteSex] => Membre titulaire
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO806155
+                                        )
+
+                                )
+
+                            [40] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM782276
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => CMP
+                                    [dateDebut] => 2021-03-29
+                                    [datePublication] => 2021-03-30
+                                    [dateFin] => 2021-04-15
+                                    [preseance] => 16
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Rapporteur
+                                            [libQualite] => Rapporteur
+                                            [libQualiteSex] => Rapporteur
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO782096
+                                        )
+
+                                )
+
+                            [41] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM416565
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => CMP
+                                    [dateDebut] => 2008-11-04
+                                    [datePublication] => 2008-11-05
+                                    [dateFin] => 2008-12-08
+                                    [preseance] => 16
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Rapporteur
+                                            [libQualite] => Rapporteur
+                                            [libQualiteSex] => Rapporteur
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO416376
+                                        )
+
+                                )
+
+                            [42] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM776239
+                                    [acteurRef] => PA1001
+                                    [legislature] => 
+                                    [typeOrgane] => CMP
+                                    [dateDebut] => 2020-10-22
+                                    [datePublication] => 2020-10-23
+                                    [dateFin] => 2020-12-17
+                                    [preseance] => 16
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Rapporteur
+                                            [libQualite] => Rapporteur
+                                            [libQualiteSex] => Rapporteur
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO776050
+                                        )
+
+                                )
+
+                            [43] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM422867
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => ORGEXTPARL
+                                    [dateDebut] => 2010-01-25
+                                    [datePublication] => 2010-01-27
+                                    [dateFin] => 2010-04-23
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Titulaire
+                                            [libQualite] => Membre titulaire
+                                            [libQualiteSex] => Membre titulaire
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO422377
+                                        )
+
+                                )
+
+                            [44] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM422869
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => ORGEXTPARL
+                                    [dateDebut] => 2010-01-25
+                                    [datePublication] => 2010-01-27
+                                    [dateFin] => 2010-04-23
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Titulaire
+                                            [libQualite] => Membre titulaire
+                                            [libQualiteSex] => Membre titulaire
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO422826
+                                        )
+
+                                )
+
+                            [45] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatParlementaire_type
+                                    [uid] => PM390334
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => BUREAU
+                                    [dateDebut] => 2007-06-27
+                                    [datePublication] => 2007-06-28
+                                    [dateFin] => 2008-09-26
+                                    [preseance] => 7
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Vice-Président
+                                            [libQualite] => Vice-président de l'Assemblée nationale
+                                            [libQualiteSex] => Vice-président de l'Assemblée nationale
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO389368
+                                        )
+
+                                    [suppleants] => 
+                                    [chambre] => 
+                                    [election] => stdClass Object
+                                        (
+                                            [lieu] => stdClass Object
+                                                (
+                                                    [region] => 
+                                                    [regionType] => 
+                                                    [departement] => 
+                                                    [numDepartement] => 
+                                                    [numCirco] => 
+                                                )
+
+                                            [causeMandat] => 
+                                        )
+
+                                    [mandature] => stdClass Object
+                                        (
+                                            [datePriseFonction] => 
+                                            [causeFin] => 
+                                            [premiereElection] => 0
+                                            [placeHemicycle] => 
+                                            [mandatRemplaceRef] => 
+                                        )
+
+                                    [collaborateurs] => 
+                                )
+
+                            [46] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM691963
+                                    [acteurRef] => PA1001
+                                    [legislature] => 14
+                                    [typeOrgane] => GE
+                                    [dateDebut] => 2013-02-23
+                                    [datePublication] => 
+                                    [dateFin] => 2017-06-20
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO686853
+                                        )
+
+                                )
+
+                            [47] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM692354
+                                    [acteurRef] => PA1001
+                                    [legislature] => 14
+                                    [typeOrgane] => GE
+                                    [dateDebut] => 2013-02-26
+                                    [datePublication] => 
+                                    [dateFin] => 2017-06-20
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO688348
+                                        )
+
+                                )
+
+                            [48] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM693774
+                                    [acteurRef] => PA1001
+                                    [legislature] => 14
+                                    [typeOrgane] => GE
+                                    [dateDebut] => 2013-04-16
+                                    [datePublication] => 
+                                    [dateFin] => 2017-06-20
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO689006
+                                        )
+
+                                )
+
+                            [49] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM692755
+                                    [acteurRef] => PA1001
+                                    [legislature] => 14
+                                    [typeOrgane] => GE
+                                    [dateDebut] => 2013-03-18
+                                    [datePublication] => 
+                                    [dateFin] => 2017-06-20
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO686810
+                                        )
+
+                                )
+
+                            [50] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM387436
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => GP
+                                    [dateDebut] => 2007-06-20
+                                    [datePublication] => 
+                                    [dateFin] => 2007-06-26
+                                    [preseance] => 28
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Député non-inscrit
+                                            [libQualite] => Député non-inscrit
+                                            [libQualiteSex] => Député non-inscrit
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO387155
+                                        )
+
+                                )
+
+                            [51] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM315081
+                                    [acteurRef] => PA1001
+                                    [legislature] => 12
+                                    [typeOrgane] => GA
+                                    [dateDebut] => 2005-11-08
+                                    [datePublication] => 
+                                    [dateFin] => 2007-06-19
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO274128
+                                        )
+
+                                )
+
+                            [52] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM427112
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => GA
+                                    [dateDebut] => 2011-02-09
+                                    [datePublication] => 
+                                    [dateFin] => 2012-06-19
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO392669
+                                        )
+
+                                )
+
+                            [53] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM315079
+                                    [acteurRef] => PA1001
+                                    [legislature] => 12
+                                    [typeOrgane] => GA
+                                    [dateDebut] => 2005-11-08
+                                    [datePublication] => 
+                                    [dateFin] => 2007-06-19
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO274150
+                                        )
+
+                                )
+
+                            [54] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM427114
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => GA
+                                    [dateDebut] => 2011-02-09
+                                    [datePublication] => 
+                                    [dateFin] => 2012-06-19
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO393161
+                                        )
+
+                                )
+
+                            [55] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM678496
+                                    [acteurRef] => PA1001
+                                    [legislature] => 14
+                                    [typeOrgane] => GA
+                                    [dateDebut] => 2012-09-26
+                                    [datePublication] => 
+                                    [dateFin] => 2017-06-20
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO675719
+                                        )
+
+                                )
+
+                            [56] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM427116
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => GA
+                                    [dateDebut] => 2011-02-09
+                                    [datePublication] => 
+                                    [dateFin] => 2012-06-19
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO393368
+                                        )
+
+                                )
+
+                            [57] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM398971
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => GA
+                                    [dateDebut] => 2007-10-12
+                                    [datePublication] => 
+                                    [dateFin] => 2010-04-23
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO393308
+                                        )
+
+                                )
+
+                            [58] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM398969
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => GA
+                                    [dateDebut] => 2007-10-12
+                                    [datePublication] => 
+                                    [dateFin] => 2010-04-23
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO392659
+                                        )
+
+                                )
+
+                            [59] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM315080
+                                    [acteurRef] => PA1001
+                                    [legislature] => 12
+                                    [typeOrgane] => GA
+                                    [dateDebut] => 2005-11-08
+                                    [datePublication] => 
+                                    [dateFin] => 2007-06-19
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO274054
+                                        )
+
+                                )
+
+                            [60] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM427113
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => GA
+                                    [dateDebut] => 2011-02-09
+                                    [datePublication] => 
+                                    [dateFin] => 2012-06-19
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO392750
+                                        )
+
+                                )
+
+                            [61] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM427115
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => GA
+                                    [dateDebut] => 2011-02-09
+                                    [datePublication] => 
+                                    [dateFin] => 2012-06-19
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO393308
+                                        )
+
+                                )
+
+                            [62] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM678497
+                                    [acteurRef] => PA1001
+                                    [legislature] => 14
+                                    [typeOrgane] => GA
+                                    [dateDebut] => 2012-09-26
+                                    [datePublication] => 
+                                    [dateFin] => 2014-04-09
+                                    [preseance] => 1
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Président
+                                            [libQualite] => Président
+                                            [libQualiteSex] => Président
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO675719
+                                        )
+
+                                )
+
+                            [63] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM398970
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => GA
+                                    [dateDebut] => 2007-10-12
+                                    [datePublication] => 
+                                    [dateFin] => 2010-04-23
+                                    [preseance] => 20
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Membre
+                                            [libQualite] => Membre
+                                            [libQualiteSex] => Membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO392750
+                                        )
+
+                                )
+
+                            [64] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatSimple_Type
+                                    [uid] => PM418527
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => CMP
+                                    [dateDebut] => 2009-02-14
+                                    [datePublication] => 2009-02-14
+                                    [dateFin] => 2009-02-19
+                                    [preseance] => 28
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => Suppléant
+                                            [libQualite] => Membre suppléant
+                                            [libQualiteSex] => Membre suppléant
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO418487
+                                        )
+
+                                )
+
+                            [65] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatParlementaire_type
+                                    [uid] => PM645499
+                                    [acteurRef] => PA1001
+                                    [legislature] => 14
+                                    [typeOrgane] => ASSEMBLEE
+                                    [dateDebut] => 2012-06-20
+                                    [datePublication] => 
+                                    [dateFin] => 2017-06-20
+                                    [preseance] => 50
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => membre
+                                            [libQualite] => membre
+                                            [libQualiteSex] => membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO644420
+                                        )
+
+                                    [suppleants] => stdClass Object
+                                        (
+                                            [suppleant] => stdClass Object
+                                                (
+                                                    [dateDebut] => 2012-06-20
+                                                    [dateFin] => 2017-06-20
+                                                    [suppleantRef] => PA266837
+                                                )
+
+                                        )
+
+                                    [chambre] => 
+                                    [election] => stdClass Object
+                                        (
+                                            [lieu] => stdClass Object
+                                                (
+                                                    [region] => Hauts-de-France
+                                                    [regionType] => Métropolitain
+                                                    [departement] => Nord
+                                                    [numDepartement] => 59
+                                                    [numCirco] => 4
+                                                )
+
+                                            [causeMandat] => élections générales
+                                            [refCirconscription] => PO644700
+                                        )
+
+                                    [mandature] => stdClass Object
+                                        (
+                                            [datePriseFonction] => 2012-06-20
+                                            [causeFin] => Fin de législature
+                                            [premiereElection] => 1
+                                            [placeHemicycle] => 
+                                            [mandatRemplaceRef] => 
+                                        )
+
+                                    [collaborateurs] => 
+                                )
+
+                            [66] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatParlementaire_type
+                                    [uid] => PM386148
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => ASSEMBLEE
+                                    [dateDebut] => 2007-06-20
+                                    [datePublication] => 
+                                    [dateFin] => 2010-04-23
+                                    [preseance] => 50
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => membre
+                                            [libQualite] => membre
+                                            [libQualiteSex] => membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO384266
+                                        )
+
+                                    [suppleants] => stdClass Object
+                                        (
+                                            [suppleant] => stdClass Object
+                                                (
+                                                    [dateDebut] => 2007-06-20
+                                                    [dateFin] => 2010-04-23
+                                                    [suppleantRef] => PA266837
+                                                )
+
+                                        )
+
+                                    [chambre] => 
+                                    [election] => stdClass Object
+                                        (
+                                            [lieu] => stdClass Object
+                                                (
+                                                    [region] => Hauts-de-France
+                                                    [regionType] => Métropolitain
+                                                    [departement] => Nord
+                                                    [numDepartement] => 59
+                                                    [numCirco] => 4
+                                                )
+
+                                            [causeMandat] => élections générales
+                                            [refCirconscription] => PO384546
+                                        )
+
+                                    [mandature] => stdClass Object
+                                        (
+                                            [datePriseFonction] => 2007-06-20
+                                            [causeFin] => Nomination comme membre du Gouvernement
+                                            [premiereElection] => 1
+                                            [placeHemicycle] => 
+                                            [mandatRemplaceRef] => 
+                                        )
+
+                                    [collaborateurs] => 
+                                )
+
+                            [67] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatParlementaire_type
+                                    [uid] => PM313904
+                                    [acteurRef] => PA1001
+                                    [legislature] => 12
+                                    [typeOrgane] => ASSEMBLEE
+                                    [dateDebut] => 2005-09-18
+                                    [datePublication] => 2005-09-20
+                                    [dateFin] => 2007-06-19
+                                    [preseance] => 50
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => membre
+                                            [libQualite] => membre
+                                            [libQualiteSex] => membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO230434
+                                        )
+
+                                    [suppleants] => stdClass Object
+                                        (
+                                            [suppleant] => stdClass Object
+                                                (
+                                                    [dateDebut] => 2005-09-18
+                                                    [dateFin] => 2007-06-19
+                                                    [suppleantRef] => PA266837
+                                                )
+
+                                        )
+
+                                    [chambre] => 
+                                    [election] => stdClass Object
+                                        (
+                                            [lieu] => stdClass Object
+                                                (
+                                                    [region] => Hauts-de-France
+                                                    [regionType] => Métropolitain
+                                                    [departement] => Nord
+                                                    [numDepartement] => 59
+                                                    [numCirco] => 4
+                                                )
+
+                                            [causeMandat] => élection partielle, remplacement d'un député démissionnaire
+                                            [refCirconscription] => PO230714
+                                        )
+
+                                    [mandature] => stdClass Object
+                                        (
+                                            [datePriseFonction] => 2005-09-19
+                                            [causeFin] => Fin de législature
+                                            [premiereElection] => 1
+                                            [placeHemicycle] => 
+                                            [mandatRemplaceRef] => PM266838
+                                        )
+
+                                    [collaborateurs] => 
+                                )
+
+                            [68] => stdClass Object
+                                (
+                                    [@xmlns:xsi] => http://www.w3.org/2001/XMLSchema-instance
+                                    [@xsi:type] => MandatParlementaire_type
+                                    [uid] => PM426191
+                                    [acteurRef] => PA1001
+                                    [legislature] => 13
+                                    [typeOrgane] => ASSEMBLEE
+                                    [dateDebut] => 2007-06-20
+                                    [datePublication] => 
+                                    [dateFin] => 2012-06-19
+                                    [preseance] => 50
+                                    [nominPrincipale] => 1
+                                    [infosQualite] => stdClass Object
+                                        (
+                                            [codeQualite] => membre
+                                            [libQualite] => membre
+                                            [libQualiteSex] => membre
+                                        )
+
+                                    [organes] => stdClass Object
+                                        (
+                                            [organeRef] => PO384266
+                                        )
+
+                                    [suppleants] => stdClass Object
+                                        (
+                                            [suppleant] => stdClass Object
+                                                (
+                                                    [dateDebut] => 2007-06-20
+                                                    [dateFin] => 2012-06-19
+                                                    [suppleantRef] => PA266837
+                                                )
+
+                                        )
+
+                                    [chambre] => 
+                                    [election] => stdClass Object
+                                        (
+                                            [lieu] => stdClass Object
+                                                (
+                                                    [region] => Hauts-de-France
+                                                    [regionType] => Métropolitain
+                                                    [departement] => Nord
+                                                    [numDepartement] => 59
+                                                    [numCirco] => 4
+                                                )
+
+                                            [causeMandat] => reprise de l'exercice du mandat d'un ancien membre du Gouvernement
+                                            [refCirconscription] => PO384546
+                                        )
+
+                                    [mandature] => stdClass Object
+                                        (
+                                            [datePriseFonction] => 2010-12-14
+                                            [causeFin] => Fin de législature
+                                            [premiereElection] => 1
+                                            [placeHemicycle] => 
+                                            [mandatRemplaceRef] => PM386148
+                                        )
+
+                                    [collaborateurs] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
